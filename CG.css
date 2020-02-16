@@ -1,0 +1,68 @@
+body {
+	background: #323232;
+	margin: 0;
+	font-family: "Montserrat", "Avenir";
+	padding: 0;
+}
+.square {
+	background:pink;
+	float: left;
+	padding-bottom: 30%;
+	margin:1.66% ;
+	width: 30%;
+	border-radius:30%;
+	transition: background 0.5s;
+}
+.big{
+	margin: 20px auto;
+	max-width: 600px;
+}
+.btns{
+	background: blue;
+}
+#divo{
+	text-align: center;
+	background: white ;
+	margin: 0 ;
+	height: 30px;
+	text-transform: uppercase;  
+}
+button {
+	border: none;
+	height: 100%;
+	background: white ;
+	color: steelblue;
+	text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 18px;
+    margin: 0;
+    font-size: inherit;
+    transition: all 0.3s;
+}
+#colorpicked {
+	font-size: 200%;
+	text-transform: uppercase; 
+	letter-spacing: 3px;
+	line-height: 40px;
+
+}
+#tryDisplay {
+	width: 20%;
+	display: inline-block;
+}
+
+h1 {
+	padding-top: 0;
+	background: steelblue;
+	margin: 0;
+	text-align: center;
+	line-height: 1.1;
+	font-weight: normal;
+	text-transform: uppercase;
+	color: white ;
+	padding: 20px 0 ;
+}
+button:hover{
+    color: white ;
+    background: steelblue ;
+}
